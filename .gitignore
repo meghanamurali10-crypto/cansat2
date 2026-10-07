@@ -1,0 +1,38 @@
+﻿# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Logs & runtime data
+logs/
+!logs/.gitkeep
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config with secrets (keep the example)
+config/config.yaml
+config/*.yaml
+
+# Model files (large binaries — decide per-project)
+# *.pkl
+# *.h5
+# *.pt
+
+# Reports
+*.pdf
